@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #07021dd2; */
+}
+body{
+    background-color: #d3d3d3;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:  center;
+    align-items: center;
+  
+}
+
+ 
+.head{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #924e4e;
+    font-size: 35px;
+}
+.line{
+    margin-top: 2px;
+    height: 0.2px;
+    width: 100%;
+    background: #0000003d;
+   text-align: center;
+}
+.unLine{
+    margin-top: 2px;
+    height: 0.5px;
+    width: 100%;
+    background: #a1a1a1;
+    text-align: center;
+}
+.body{
+     /* display: block;
+     
+     justify-content: center;
+     align-items: center; */
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+li{
+    padding: 0px;
+    margin-top: 0px;
+    list-style: none;
+}
+.body{
+    margin-top: 20px;
+}
+.body .dev{
+    text-decoration: none;
+    color: #924e4e;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    user-select: none;
+    margin-top: 30px;
+}
+.body .des
+{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #924e4e;
+  
+    font-size: 22px;
+    user-select: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body .des:hover{
+    color: #000000;
+}
+.body .dev:hover{
+    color: #000000;
+}
+.para{
+    padding-top: 25px;
+    color: #924e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ #p1{
+    margin-top: -40px;
+    font-size: 13px;
+}
+.links{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+.links a{
+    font-size: 20px;
+
+}
+.links a:hover{
+    color: #555;
+}
+.footers{
+   width: 100%;
+   height: 30px;
+   background-color: #000000;
+   flex-wrap: nowrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-wrap: nowrap;
+   position: absolute;
+   bottom: 0;
+   top: 0;
+
+}
+.foop{
+    text-align: end;
+    color: #fffcfc;
+    font-size: 9px;
+    font-family: monospace;
+}
+.foop a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.foop a :hover{
+    color: rgb(112, 83, 83);
+}
